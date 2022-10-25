@@ -1,0 +1,140 @@
+.buthon-type {
+  background: white;
+  border: 0px;
+  text-decoration: underline;
+  color: black;
+}
+
+.product-list {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.inputsearch
+{
+  display: block;
+    margin: 25px;
+    width: 400px;
+    padding: 7px;
+    border: 1px solid slategrey;
+    margin-left: 470px;
+}
+
+
+.product-list ul li {
+  display: inline-block;
+  width: 150px;
+  padding: 5px;
+  border: 1px solid skyblue;
+
+}
+
+.product-list ul {
+  margin: 0px;
+}
+
+.valid-tag {
+  color: red;
+  margin-top: -20px;
+  display: block;
+  margin-left: 10px;
+}
+
+.logo-img {
+  width: 79px;
+  float: left;
+  border-radius: 50%;
+  margin-top: 6px;
+  margin-left: 20px;
+  display: inline;
+  margin-bottom: 0;
+}
+
+.nav-right {
+  text-align: right;
+}
+
+.product {
+  margin-left: 30%;
+}
+
+
+.inputBox {
+  display: block;
+  margin: 25px;
+  width: 400px;
+  padding: 7px;
+  border: 1px solid slategrey;
+}
+
+.appButton {
+  margin: 22px;
+  margin-top: 0px;
+  padding: 7px;
+  width: 120px;
+  background-color: deepskyblue;
+  color: black;
+  cursor: pointer;
+}
+
+.nav-ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav-ul {
+  padding: 5px;
+  margin: 0px;
+  background-color: black;
+}
+
+.nav-ul li a {
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.h1-align {
+  text-align: center;
+  margin-top: 2%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
